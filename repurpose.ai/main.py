@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load the data
-file_path = '/Users/eesharamkumar/Downloads/repurpose.ai/data.txt'
+file_path = '/repurpose.ai/data.txt'
 data = pd.read_csv(file_path, sep='\t')
 
 # Data Cleaning
