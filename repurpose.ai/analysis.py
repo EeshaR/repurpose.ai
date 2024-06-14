@@ -10,7 +10,7 @@ import joblib
 # Set up OpenAI API key
 
 # Load the processed data
-processed_data_path = '/Users/eesharamkumar/Downloads/repurpose.ai/processed_data.csv'
+processed_data_path = '/repurpose.ai/processed_data.csv'
 data = pd.read_csv(processed_data_path)
 
 # Prepare data for prediction
