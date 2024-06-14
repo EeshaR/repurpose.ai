@@ -2,12 +2,12 @@ import pandas as pd
 import joblib
 
 # Load the trained model, label encoder, and columns
-model = joblib.load('/Users/eesharamkumar/Downloads/repurpose.ai/final_model.pkl')
-label_encoder = joblib.load('/Users/eesharamkumar/Downloads/repurpose.ai/label_encoder.pkl')
-model_columns = joblib.load('/Users/eesharamkumar/Downloads/repurpose.ai/model_columns.pkl')
+model = joblib.load('/repurpose.ai/final_model.pkl')
+label_encoder = joblib.load('/repurpose.ai/label_encoder.pkl')
+model_columns = joblib.load('/repurpose.ai/model_columns.pkl')
 
 # Load the processed data
-processed_data_path = '/Users/eesharamkumar/Downloads/repurpose.ai/processed_data.csv'
+processed_data_path = '/repurpose.ai/processed_data.csv'
 data = pd.read_csv(processed_data_path)
 
 # Select a sample input from the processed data
